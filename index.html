@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO-LIST</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+     <link
+      href="https://cdn.jsdelivr.net/npm/beercss@5.0.3/dist/cdn/beer.min.css"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/beercss@5.0.3/dist/cdn/beer.min.js"
+    ></script>
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/material-dynamic-colors@1.1.4/dist/cdn/material-dynamic-colors.min.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+    
+
+    <h1> Minha Lista de Tarefas: </h1>
+    <div class="Color">
+        <input type="text" id="taskInput" class="input">
+        <button onclick="addTask()">
+            <i class="fa-solid fa-plus"></i> 
+        </button>
+
+        <button onclick="deleteTask()">
+            <i class="fa-solid fa-trash-can"></i>
+        </button>
+    </div>        
+    <ul id="taskList" class = "taskList"></ul>
+</body>
+</html>
